@@ -32,14 +32,14 @@ function App() {
           </div>
 
           <div className='productdesigne my-32 w-full flex justify-center items-center'>
-            <div className='lg:w-[55%] flex '>
-              <div className='lg:mx-0 lg:w-[455px]'>
+            <div className='lg:w-[55%] flex lg:m-0 '>
+              <div className='lg:m-0 lg:w-[455px] w-[485px] mr-12 '>
                 <div className=''>
-                  <h1 className='font-anton font-normal text-[130px] leading-[118px] tracking-[-3%]'>PRODUCT DESIGNER</h1>
-                  <h2 className='font-anton font-normal text-[74px] leading-[96px] tracking-[-3%] w-[455px] h-[90px] bg-gradient-to-r from-red to-orange text-transparent bg-clip-text '>CRISTIAN MUÑOZ</h2>
+                  <h1 className='font-anton font-normal lg:text-[130px] lg:leading-[118px] text-[140px] leading-[125px] tracking-[-3%]'>PRODUCT DESIGNER</h1>
+                  <h2 className='font-anton font-normal lg:text-[74px] lg:leading-[96px] text-[79px] leading-[102px] tracking-[-3%] lg:w-[455px] w-[482px] lg:h-[90px] h-[100px] bg-gradient-to-r from-red to-orange text-transparent bg-clip-text '>CRISTIAN MUÑOZ</h2>
                 </div>
-                <div className='py-8'>
-                  <u className='flex lg:items-center lg:justify-between '>
+                <div className='py-8 lg:w-full'>
+                  <u className='flex items-center justify-between'>
                     <a className='border rounded-[10px] p-1 gap-2'><li className='list-none w-8 h-8'><img src='image/instagram.png' /></li></a>
                     <a className='border rounded-[10px] p-1 gap-2'><li className='list-none w-8 h-8'><img src='image/Figma.png' /></li></a>
                     <a className='border rounded-[10px] p-1 gap-2'><li className='list-none w-8 h-8'><img src='image/linkedin.png' /></li></a>
@@ -53,11 +53,11 @@ function App() {
                   <img src='image/arrow-down.png' />
                 </button>
               </div>
-              <div className='w-[120px]  h-[140px] lg:flex hidden '> 
+              <div className='w-[120px] h-[140px] lg:flex hidden '> 
                 <img className='' src='image/Portal.png'/>
               </div>
             </div>
-            <div className='xl:flex lg:flex xl:w-[45%] xl:px-0 lg:pl-16 hidden'>
+            <div className='xl:flex lg:flex w-[45%] hidden'>
               <img className='h-[580px]' src='image/colorful-vintage-collage-design 1.png' ></img>
             </div>
           </div>
