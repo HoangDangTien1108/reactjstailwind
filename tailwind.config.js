@@ -10,14 +10,23 @@ module.exports = {
         gotham: ['Gotham']
       },
       colors: {
+        navBarViolet:'#925FF0',
         red:'#FA709A',
         orange:'#FEE140',
         yellow:'#FFEC70',
         gray:'#292929',
+        green:'#C8FEC7',
+        rateGray:'#646464',
+        grayPtf:'#737373',
+        violet:'#BE9FF6',
+        violetPtf:'#E9DFFC',
+        tViolet:'#784DC7',
+        buttonPtf:'#292929',
       },  
       screens:{
+        xxl:'1280px',
         xl:'1102px',
-        lg:'1025px'
+        lg:'1025px',
       },
     },
   },
